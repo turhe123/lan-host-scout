@@ -1,0 +1,5 @@
+[
+  {"file":"01-main-window.png","caption":"A finished scan of the local subnet lists each device's IP, MAC address, vendor hint, response time and open ports, with full details for the selected device in the sidebar.","alt":"LanHostScout main window with device table and details sidebar"},
+  {"file":"02-settings.png","caption":"Settings let you edit the probed ports, timeout and concurrency, and choose whether to scan on launch.","alt":"LanHostScout Settings window"},
+  {"file":"03-known-devices.png","caption":"The Known Devices sheet lists every device seen before, with its label, last IP and last-seen time, and lets you forget entries.","alt":"Known Devices sheet over the main window"}
+]

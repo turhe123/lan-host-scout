@@ -1,5 +1,7 @@
 # LanHostScout
 
+**🌐 Website:** [turhe123.github.io/lan-host-scout](https://turhe123.github.io/lan-host-scout/)
+
 Scan your local network and list every device with its IP, name, MAC address, vendor hint and open common ports.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,17 @@ LanHostScout is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-main-window.png" alt="LanHostScout main window with device table and details sidebar" width="720"></p>
+
+<p align="center"><em>A finished scan of the local subnet lists each device&#x27;s IP, MAC address, vendor hint, response time and open ports, with full details for the selected device in the sidebar.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="LanHostScout Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you edit the probed ports, timeout and concurrency, and choose whether to scan on launch.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-known-devices.png" alt="Known Devices sheet over the main window" width="560"></p>
+
+<p align="center"><em>The Known Devices sheet lists every device seen before, with its label, last IP and last-seen time, and lets you forget entries.</em></p>
 
 ## Install
 

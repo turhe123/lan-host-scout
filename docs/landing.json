@@ -1,0 +1,24 @@
+{
+  "seo_title": "Local network scanner for macOS",
+  "seo_description": "LanHostScout is a free, open-source Mac app that scans your subnet and lists every device with IP, name, MAC address, vendor hint and open ports.",
+  "hero_title_line1": "See every device",
+  "hero_title_accent": "on your network.",
+  "hero_sub": "LanHostScout scans your local subnet and lists each device with its IP, name, MAC address, vendor hint and open ports. Pick an interface, press Scan or ⌘R, and export the results to CSV.",
+  "features_title": "Everything on your subnet.",
+  "features_sub": "One native window that merges probes, the ARP cache and Bonjour into a single sortable table.",
+  "features": [
+    {"icon": "bolt", "title": "Fast bounded subnet sweep", "desc": "Probes every address in a /24 or smaller range with up to 60 concurrent TCP connections by default. A connection or a refusal both count as a sign of life."},
+    {"icon": "cpu", "title": "Three sources, merged by IP", "desc": "Combines TCP probes, the system ARP cache and Bonjour service discovery, so devices that block probes can still appear."},
+    {"icon": "window", "title": "Sortable table and details", "desc": "See IP, name, MAC, vendor hint, response time and open ports. Search across all columns and inspect any device in the sidebar."},
+    {"icon": "eye", "title": "Known Devices with labels", "desc": "Give devices a label and spot newcomers: anything not seen in an earlier scan is tagged NEW. Review or forget known devices at any time."},
+    {"icon": "sliders", "title": "Configurable scans", "desc": "Edit the port list, set the timeout from 100 to 5000 ms, adjust concurrency, and choose whether to scan on launch."},
+    {"icon": "clipboard", "title": "Copy and CSV export", "desc": "Copy a row with ⌘C or export all rows or a selection to CSV with ⌘E."}
+  ],
+  "permissions_step": "When macOS asks, allow Local Network access; you can change it later in System Settings → Privacy & Security → Local Network.",
+  "faq": [
+    {"q": "Is LanHostScout really free and open source?", "a": "Yes. It is released under the MIT license and the full source is on GitHub. It has no ads, no analytics and no third-party dependencies, only Apple frameworks. If it is useful, there is an optional Support button."},
+    {"q": "What permissions does it need?", "a": "Only Local Network access, which it uses to probe addresses on your subnet and browse Bonjour services. It does not request Accessibility, Screen Recording, microphone, camera or contacts, and the ARP cache is read without admin rights."},
+    {"q": "Where is my data stored?", "a": "Everything stays on your Mac. Device labels and known devices are saved as JSON at ~/Library/Application Support/LanHostScout/known-devices.json. Nothing is sent to a server."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."}
+  ]
+}
